@@ -20,3 +20,26 @@
       </nav>
     </div>
   </header>
+  <main class="max-w-6xl mx-auto px-4 py-10">
+    <section class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-4xl font-extrabold mb-4">Bienvenidos a Managua</h1>
+        <p class="text-lg mb-6">Explora los lugares emblemáticos, la historia y la gastronomía de Managua, Nicaragua.</p>
+        <div class="flex gap-3">
+          <a href="lugares.html" class="px-5 py-3 bg-emerald-600 text-white rounded-lg shadow hover:opacity-90">Ver lugares turísticos</a>
+          <a href="gastronomia.html" class="px-5 py-3 border border-emerald-600 rounded-lg">Gastronomía</a>
+        </div>
+      </div>
+      <div>
+        <img src="assets/img/managua_plaza.jpg" alt="Plaza la Revolución Managua" class="rounded-lg shadow-lg object-cover w-full h-72"/>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-white border-t mt-12">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-gray-600">
+      © <span id="year"></span> Guía Turística de Managua — Proyecto estudiantil.
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
